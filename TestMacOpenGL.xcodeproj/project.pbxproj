@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		543A78531657B62600D1A7A5 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 543A78521657B62600D1A7A5 /* main.c */; };
 		543A78551657B62600D1A7A5 /* TestMacOpenGL.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 543A78541657B62600D1A7A5 /* TestMacOpenGL.1 */; };
+		543A785D1657B67C00D1A7A5 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 543A785B1657B67C00D1A7A5 /* GLUT.framework */; };
+		543A785E1657B67C00D1A7A5 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 543A785C1657B67C00D1A7A5 /* OpenGL.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +30,8 @@
 		543A784E1657B62600D1A7A5 /* TestMacOpenGL */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TestMacOpenGL; sourceTree = BUILT_PRODUCTS_DIR; };
 		543A78521657B62600D1A7A5 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		543A78541657B62600D1A7A5 /* TestMacOpenGL.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = TestMacOpenGL.1; sourceTree = "<group>"; };
+		543A785B1657B67C00D1A7A5 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		543A785C1657B67C00D1A7A5 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +39,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				543A785D1657B67C00D1A7A5 /* GLUT.framework in Frameworks */,
+				543A785E1657B67C00D1A7A5 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +50,8 @@
 		543A78431657B62600D1A7A5 = {
 			isa = PBXGroup;
 			children = (
+				543A785B1657B67C00D1A7A5 /* GLUT.framework */,
+				543A785C1657B67C00D1A7A5 /* OpenGL.framework */,
 				543A78511657B62600D1A7A5 /* TestMacOpenGL */,
 				543A784F1657B62600D1A7A5 /* Products */,
 			);
